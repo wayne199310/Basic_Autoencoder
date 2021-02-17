@@ -88,4 +88,4 @@ for epoch in range(epochs):
 
 
 # Save
-# torch.save(model, 'autoencoder.pth')
+torch.save(model, 'autoencoder.pth')
